@@ -2,7 +2,7 @@
 
 A single-file, dependency-free mobile order tracking experience for an e-commerce app. Built with plain HTML/CSS/JS so it runs anywhere with zero build step.
 
-**Live demo:** https://claude.ai/artifact/MwuDY9j8QHgmDiQxYa3bkU
+**Live demo:** https://vecosoft-order-ui.netlify.app/
 
 ## What's inside
 
