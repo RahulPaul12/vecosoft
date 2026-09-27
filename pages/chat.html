@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <!-- REQUIRED -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FONTS -->
+    <link rel="stylesheet" href="../fonts/fontawesome/fontawesome.css">
+    <link rel="stylesheet" href="../fonts/typography/rubik/rubik.css"> 
+    
+    <!-- STYLES -->
+    <link rel="stylesheet" href="../css/preloader.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- SCRIPTS -->
+    <script defer src="../js/script.js"></script>
+
+    <!-- TITLE -->
+    <title>Menu Page</title>
+</head>
+<body>
+    <!-- PRELOADER -->
+    <div class="preloader bg-primary/95">
+        <div class="loader"></div>
+    </div>
+
+    <!--====================================
+                HEADER PART START   
+    =====================================-->
+    <header class="shadow-xs bg-white ff-header">
+        <div class="container flex items-center justify-between">
+            <div class="w-full flex items-center justify-between gap-5 xl:gap-8 lg:justify-start lg:w-fit">
+                <a href="home.html"><img class="w-32" src="../images/logo/pink.png" alt="logo"></a>
+            </div>
+            <nav class="items-center justify-center gap-6 hidden lg:flex">
+                <a href="active-order-delivery.html" class="capitalize text-sm font-medium text-heading">home</a>
+                <a href="menu.html" class="capitalize text-sm font-medium text-heading">menu</a>
+                <a href="offer.html" class="capitalize text-sm font-medium text-heading">offers</a>
+            </nav>
+            <div class="flex items-center justify-end gap-3 w-full flex-row lg:w-fit lg:mt-0">
+                <div class="w-fit">
+                    <button class="flex items-center justify-center gap-1.5 w-fit rounded-3xl capitalize text-sm font-medium lg:aspect-auto aspect-square h-8 lg:px-3 border transition text-heading bg-white border-gray-200">
+                        <img src="../images/uk.png" alt="flag" class="w-4 h-4 rounded-full">
+                        <span class="whitespace-nowrap hidden lg:flex">english</span>
+                    </button>
+                </div>
+                <button data-webcart="#cart" class="flex items-center justify-center gap-1.5 w-fit rounded-3xl capitalize text-sm font-medium lg:aspect-auto aspect-square h-8 lg:px-3 transition text-white bg-heading">
+                    <i class="fa-solid fa-bag-shopping text-sm"></i>
+                    <span class="whitespace-nowrap hidden lg:flex">$0.00</span>
+                </button>
+                <a href="" class="flex items-center justify-center gap-1.5 w-fit rounded-3xl capitalize text-sm font-medium lg:aspect-auto aspect-square h-8 lg:px-3 transition text-white bg-primary">
+                <svg class="fill-white" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16.5 9C16.5 4.8675 13.1325 1.5 9 1.5C4.8675 1.5 1.5 4.8675 1.5 9C1.5 11.175 2.4375 13.1325 3.9225 14.505C3.9225 14.5125 3.9225 14.5125 3.915 14.52C3.99 14.595 4.08 14.655 4.155 14.7225C4.2 14.76 4.2375 14.7975 4.2825 14.8275C4.4175 14.94 4.5675 15.045 4.71 15.15C4.7625 15.1875 4.8075 15.2175 4.86 15.255C5.0025 15.3525 5.1525 15.4425 5.31 15.525C5.3625 15.555 5.4225 15.5925 5.475 15.6225C5.625 15.705 5.7825 15.78 5.9475 15.8475C6.0075 15.8775 6.0675 15.9075 6.1275 15.93C6.2925 15.9975 6.4575 16.0575 6.6225 16.11C6.6825 16.1325 6.7425 16.155 6.8025 16.17C6.9825 16.2225 7.1625 16.2675 7.3425 16.3125C7.395 16.3275 7.4475 16.3425 7.5075 16.35C7.7175 16.395 7.9275 16.425 8.145 16.4475C8.175 16.4475 8.205 16.455 8.235 16.4625C8.49 16.485 8.745 16.5 9 16.5C9.255 16.5 9.51 16.485 9.7575 16.4625C9.7875 16.4625 9.8175 16.455 9.8475 16.4475C10.065 16.425 10.275 16.395 10.485 16.35C10.5375 16.3425 10.59 16.32 10.65 16.3125C10.83 16.2675 11.0175 16.23 11.19 16.17C11.25 16.1475 11.31 16.125 11.37 16.11C11.535 16.05 11.7075 15.9975 11.865 15.93C11.925 15.9075 11.985 15.8775 12.045 15.8475C12.2025 15.78 12.36 15.705 12.5175 15.6225C12.5775 15.5925 12.63 15.555 12.6825 15.525C12.8325 15.435 12.9825 15.3525 13.1325 15.255C13.185 15.225 13.23 15.1875 13.2825 15.15C13.4325 15.045 13.575 14.94 13.71 14.8275C13.755 14.79 13.7925 14.7525 13.8375 14.7225C13.92 14.655 14.0025 14.5875 14.0775 14.52C14.0775 14.5125 14.0775 14.5125 14.07 14.505C15.5625 13.1325 16.5 11.175 16.5 9ZM12.705 12.7275C10.6725 11.3625 7.3425 11.3625 5.295 12.7275C4.965 12.945 4.695 13.2 4.47 13.4775C3.33 12.3225 2.625 10.74 2.625 9C2.625 5.4825 5.4825 2.625 9 2.625C12.5175 2.625 15.375 5.4825 15.375 9C15.375 10.74 14.67 12.3225 13.53 13.4775C13.3125 13.2 13.035 12.945 12.705 12.7275Z"/>
+                    <path d="M9 5.19727C7.4475 5.19727 6.1875 6.45727 6.1875 8.00977C6.1875 9.53227 7.38 10.7698 8.9625 10.8148C8.985 10.8148 9.015 10.8148 9.03 10.8148C9.045 10.8148 9.0675 10.8148 9.0825 10.8148C9.09 10.8148 9.0975 10.8148 9.0975 10.8148C10.6125 10.7623 11.805 9.53227 11.8125 8.00977C11.8125 6.45727 10.5525 5.19727 9 5.19727Z"/>
+                </svg>
+                <span class="whitespace-nowrap hidden lg:flex">log in</span>
+            </a>
+            </div>
+        </div>
+    </header>
+    <!--====================================
+                HEADER PART END   
+    =====================================-->
+
+
+    <!--====================================
+                MENU PART START   
+    =====================================-->
+    <section class="pt-8 pb-16">
+        <div class="container max-w-3xl">
+            <img class="w-auto h-32 mx-auto mb-3" src="../images/gif/coming-soon.gif" alt="gif">
+        </div>
+    </section>
+    <!--====================================
+                MENU PART END  
+    =====================================-->
+
+
+    <!--====================================
+              MOBILE NAV PART START   
+    =====================================-->
+    <nav class="flex items-center justify-between py-3 px-5 fixed bottom-0 left-0 z-20 w-full shadow-xl-top rounded-t-xl bg-white lg:hidden">
+        <a href="active-order-delivery.html" class="flex flex-col items-center gap-1 text-primary">
+            <i class="fa-solid fa-house text-sm leading-none"></i>
+            <span class="text-xs capitalize">home</span>
+        </a>
+        <a href="menu.html" class="flex flex-col items-center gap-1">
+            <i class="fa-solid fa-layer-group text-base leading-none"></i>
+            <span class="text-xs capitalize">menu</span>
+        </a>
+        <button class="fa-solid fa-bag-shopping text-base w-12 h-12 leading-[48px] text-center rounded-full -mt-12 text-white bg-primary
+        relative after:absolute after:top-3 after:right-2.5 after:w-2 after:h-2 after:rounded-full 
+        after:shadow after:bg-[#FFDB1F]" data-mobcart="#cart"></button>
+        <a href="offer.html" class="flex flex-col items-center gap-1">
+            <i class="fa-solid fa-tags text-base leading-none"></i>
+            <span class="text-xs capitalize">offers</span>
+        </a>
+        <button type="button" data-profile="#profile" class="flex flex-col items-center gap-1">
+            <i class="fa-solid fa-circle-user text-base leading-none"></i>
+            <span class="text-xs capitalize">profile</span>
+        </button>
+    </nav>
+    <!--====================================
+              MOBILE NAV PART END   
+    =====================================-->
+
+
+    <!--====================================
+            ACCOUNT PROFILE MENU START     
+    =====================================-->
+    <aside id="profile" class="ltr:translate-x-[105%] rtl:-translate-x-[105%] fixed top-0 ltr:right-0 rtl:left-0 z-[60] w-full max-w-sm ltr:shadow-sidebar-left rtl:shadow-sidebar-right transition-all duration-500 bg-white">
+        <div class="w-fit mx-auto text-center py-5">
+            <button class="fa-solid fa-xmark absolute top-4 ltr:right-4 rtl:left-4 text-white bg-[#FB4E4E] xmark-btn"></button>
+            <figure class="relative z-10 w-[98px] h-[98px] border-2 border-dashed rounded-full inline-flex items-center justify-center border-white bg-gradient-to-t from-[#FF7A00] to-[#FF016C] 
+            before:absolute before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:w-24 before:h-24 before:rounded-full before:-z-10 before:bg-white">
+                <img class="w-[90px] h-[90px] rounded-full shadow-avatar" src="../images/avatar/04.jpg" alt="avatar">
+            </figure>
+            <label for="avatar" class="block w-11 h-11 mx-auto -mt-7 mb-2 relative z-10 rounded-full border-2 cursor-pointer bg-heading border-white">
+                <input type="file" id="avatar" class="w-full h-full rounded-full opacity-0 cursor-pointer relative -z-10">
+                <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 -z-10" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M6.3764 17.0279L15.1628 5.66544C15.6403 5.0527 15.8101 4.3443 15.6509 3.62299C15.513 2.96726 15.1097 2.34377 14.5049 1.87078L13.0299 0.699064C11.7459 -0.322161 10.1541 -0.214663 9.24152 0.957057L8.25465 2.23735C8.12731 2.39752 8.15914 2.63401 8.31832 2.76301C8.31832 2.76301 10.812 4.76246 10.8651 4.80546C11.0349 4.96671 11.1622 5.1817 11.1941 5.43969C11.2471 5.94493 10.8969 6.41792 10.377 6.48242C10.1329 6.51467 9.89944 6.43942 9.72966 6.29967L7.1086 4.21422C6.98126 4.11855 6.79025 4.13898 6.68413 4.26797L0.455138 12.3303C0.0518984 12.8355 -0.086052 13.4912 0.0518984 14.1255L0.847767 17.5761C0.890213 17.7589 1.04939 17.8879 1.24039 17.8879L4.74222 17.8449C5.37891 17.8341 5.97316 17.5439 6.3764 17.0279ZM11.2797 15.9533H16.9898C17.5469 15.9533 18 16.4123 18 16.9766C18 17.5421 17.5469 18 16.9898 18H11.2797C10.7226 18 10.2695 17.5421 10.2695 16.9766C10.2695 16.4123 10.7226 15.9533 11.2797 15.9533Z" fill="url(#paint0_linear_1152_2301)"/>
+                    <defs>
+                        <linearGradient id="paint0_linear_1152_2301" x1="9" y1="0" x2="9" y2="18" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="white" stop-opacity="0.86"/>
+                            <stop offset="1" stop-color="white" stop-opacity="0.76"/>
+                        </linearGradient>
+                    </defs>
+                </svg>   
+            </label>
+            <h3 class="font-medium text-sm leading-6 capitalize mb-0.5">Madelyn Lubin</h3>
+            <p class="text-xs mb-0.5">madelynlub@gmail.com</p>
+            <p class="text-xs">01236454778</p>
+        </div>
+        <nav class="px-4 h-[calc(100vh_-_225px)] overflow-y-auto thin-scrolling">
+            <a href="" class="paper-link transition w-full flex items-center gap-3.5 py-2.5 border-b last:border-none border-[#EFF0F6]">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M22 10.9V4.1C22 2.6 21.36 2 19.77 2H15.73C14.14 2 13.5 2.6 13.5 4.1V10.9C13.5 12.4 14.14 13 15.73 13H19.77C21.36 13 22 12.4 22 10.9Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M22 19.9V18.1C22 16.6 21.36 16 19.77 16H15.73C14.14 16 13.5 16.6 13.5 18.1V19.9C13.5 21.4 14.14 22 15.73 22H19.77C21.36 22 22 21.4 22 19.9Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M10.5 13.1V19.9C10.5 21.4 9.86 22 8.27 22H4.23C2.64 22 2 21.4 2 19.9V13.1C2 11.6 2.64 11 4.23 11H8.27C9.86 11 10.5 11.6 10.5 13.1Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M10.5 4.1V5.9C10.5 7.4 9.86 8 8.27 8H4.23C2.64 8 2 7.4 2 5.9V4.1C2 2.6 2.64 2 4.23 2H8.27C9.86 2 10.5 2.6 10.5 4.1Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span class="text-sm leading-6 capitalize">admin panel</span>
+            </a>
+            <a href="" class="paper-link transition w-full flex items-center gap-3.5 py-2.5 border-b last:border-none border-[#EFF0F6]">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12.6467 14.6663H3.31334C1.31334 14.6663 1.31334 13.7663 1.31334 12.6663V11.9997C1.31334 11.633 1.61334 11.333 1.98001 11.333H13.98C14.3467 11.333 14.6467 11.633 14.6467 11.9997V12.6663C14.6467 13.7663 14.6467 14.6663 12.6467 14.6663Z" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M13.8133 8.66634V11.333H2.17999V8.66634C2.17999 6.10634 3.98666 3.96634 6.39333 3.45301C6.75333 3.37301 7.12666 3.33301 7.51333 3.33301H8.47999C8.86666 3.33301 9.24666 3.37301 9.60666 3.45301C12.0133 3.97301 13.8133 6.10634 13.8133 8.66634Z" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M9.66666 2.99967C9.66666 3.15967 9.64666 3.30634 9.60666 3.45301C9.24666 3.37301 8.86666 3.33301 8.47999 3.33301H7.51333C7.12666 3.33301 6.75333 3.37301 6.39333 3.45301C6.35333 3.30634 6.33333 3.15967 6.33333 2.99967C6.33333 2.07967 7.07999 1.33301 7.99999 1.33301C8.91999 1.33301 9.66666 2.07967 9.66666 2.99967Z" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M10 7.33301H6" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span class="text-sm leading-6 capitalize">My Orders</span>
+            </a>
+            <a href="" class="paper-link transition w-full flex items-center gap-3.5 py-2.5 border-b last:border-none border-[#EFF0F6]">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.33333 1.33301H5.99999C2.66666 1.33301 1.33333 2.66634 1.33333 5.99967V9.99967C1.33333 13.333 2.66666 14.6663 5.99999 14.6663H9.99999C13.3333 14.6663 14.6667 13.333 14.6667 9.99967V8.66634" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M10.6933 2.0135L5.44 7.26684C5.24 7.46684 5.04 7.86017 5 8.14684L4.71333 10.1535C4.60666 10.8802 5.12 11.3868 5.84666 11.2868L7.85333 11.0002C8.13333 10.9602 8.52666 10.7602 8.73333 10.5602L13.9867 5.30684C14.8933 4.40017 15.32 3.34684 13.9867 2.0135C12.6533 0.680168 11.6 1.10684 10.6933 2.0135Z" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M9.94 2.7666C10.3867 4.35993 11.6333 5.6066 13.2333 6.05993" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg> 
+                <span class="text-sm leading-6 capitalize">edit profile</span>
+            </a>
+            <a href="chat.html" class="paper-link transition w-full flex items-center gap-3.5 py-2.5 border-b last:border-none border-[#EFF0F6]">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12.3133 11.2197L12.5733 13.3263C12.64 13.8797 12.0467 14.2663 11.5733 13.9797L8.77999 12.3197C8.47333 12.3197 8.17333 12.2997 7.88 12.2597C8.37333 11.6797 8.66666 10.9463 8.66666 10.153C8.66666 8.25966 7.02666 6.72636 4.99999 6.72636C4.22666 6.72636 3.51333 6.94634 2.92 7.33301C2.9 7.16634 2.89333 6.99967 2.89333 6.82633C2.89333 3.793 5.52666 1.33301 8.77999 1.33301C12.0333 1.33301 14.6667 3.793 14.6667 6.82633C14.6667 8.62633 13.74 10.2197 12.3133 11.2197Z" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M8.66666 10.1532C8.66666 10.9465 8.37333 11.6799 7.88 12.2599C7.22 13.0599 6.17333 13.5732 5 13.5732L3.25999 14.6065C2.96666 14.7865 2.59333 14.5399 2.63333 14.1999L2.79999 12.8866C1.90666 12.2666 1.33333 11.2732 1.33333 10.1532C1.33333 8.97986 1.96 7.94654 2.92 7.33321C3.51333 6.94654 4.22666 6.72656 5 6.72656C7.02666 6.72656 8.66666 8.25987 8.66666 10.1532Z" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span class="text-sm leading-6 capitalize">chat</span>
+            </a>
+            <a href="" class="paper-link transition w-full flex items-center gap-3.5 py-2.5 border-b last:border-none border-[#EFF0F6]">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14.6667 5.99968V9.99968C14.6667 11.6664 14.3333 12.833 13.5867 13.5864L9.33333 9.33302L14.4867 4.17969C14.6067 4.70635 14.6667 5.30635 14.6667 5.99968Z" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M14.4867 4.17968L4.17999 14.4863C2.17332 14.0263 1.33333 12.6397 1.33333 9.99967V5.99967C1.33333 2.66634 2.66666 1.33301 5.99999 1.33301H9.99999C12.64 1.33301 14.0267 2.17301 14.4867 4.17968Z" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M13.5867 13.5863C12.8333 14.333 11.6667 14.6663 10 14.6663H6C5.30667 14.6663 4.70666 14.6063 4.17999 14.4863L9.33333 9.33301L13.5867 13.5863Z" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M4.15999 5.32047C4.61333 3.36714 7.54667 3.36714 8 5.32047C8.26 6.46714 7.53999 7.44047 6.90666 8.04047C6.44666 8.48047 5.72 8.48047 5.25334 8.04047C4.62 7.44047 3.89333 6.46714 4.15999 5.32047Z"/>
+                    <path d="M6.06307 5.80013H6.06906" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span class="text-sm leading-6 capitalize">address</span>
+            </a>
+            <a href="" class="paper-link transition w-full flex items-center gap-3.5 py-2.5 border-b last:border-none border-[#EFF0F6]">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13.1933 9.95289C11.82 11.3196 9.85333 11.7396 8.12666 11.1996L4.98666 14.3329C4.76 14.5662 4.31333 14.7062 3.99333 14.6596L2.54 14.4596C2.06 14.3929 1.61333 13.9396 1.54 13.4596L1.34 12.0062C1.29333 11.6862 1.44666 11.2396 1.66666 11.0129L4.8 7.87956C4.26666 6.14622 4.68 4.17956 6.05333 2.81289C8.02 0.846224 11.2133 0.846224 13.1867 2.81289C15.16 4.77956 15.16 7.98622 13.1933 9.95289Z" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M4.59334 11.6602L6.12667 13.1935" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M9.66667 7.33301C10.219 7.33301 10.6667 6.88529 10.6667 6.33301C10.6667 5.78072 10.219 5.33301 9.66667 5.33301C9.11439 5.33301 8.66667 5.78072 8.66667 6.33301C8.66667 6.88529 9.11439 7.33301 9.66667 7.33301Z" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span class="text-sm leading-6 capitalize">change password</span>
+            </a>
+            <a href="" class="paper-link transition w-full flex items-center gap-3.5 py-2.5 border-b last:border-none border-[#EFF0F6]">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5.93333 5.04016C6.14 2.64016 7.37333 1.66016 10.0733 1.66016H10.16C13.14 1.66016 14.3333 2.85349 14.3333 5.83349V10.1802C14.3333 13.1602 13.14 14.3535 10.16 14.3535H10.0733C7.39333 14.3535 6.16 13.3868 5.94 11.0268" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M10 8H2.41333" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M3.90001 5.7666L1.66667 7.99994L3.90001 10.2333" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span class="text-sm leading-6 capitalize">log out</span>
+            </a>
+        </nav>
+    </aside>
+    <!--====================================
+            ACCOUNT PROFILE MENU END     
+    =====================================-->
+
+
+    <!--====================================
+            CART SIDEBAR PART START   
+    =====================================-->
+    <!-- Empty cart sidebar -->
+   <aside id="cart" class="w-screen h-full fixed top-0 ltr:left-0 rtl:right-0 z-60 opacity-0 invisible bg-black/60 transition">
+        <div class="max-w-sm w-full h-screen absolute top-0 ltr:right-0 rtl:left-0 ltr:translate-x-full rtl:-translate-x-full bg-white transition">
+            <div class="h-[calc(100vh-200px)] lg:h-[calc(100vh-220px)] flex items-center justify-center flex-col text-center overflow-y-auto p-4 relative">
+                <h3 class="text-xl font-semibold capitalize text-center mb-16">my cart</h3>
+                <button class="fa-solid fa-xmark absolute top-2 ltr:right-3 rtl:left-3 text-white bg-[#FB4E4E] xmark-btn"></button>
+                <img class="w-40 mb-12" src="/task-1/images/gif/empty.gif" alt="gif">
+                <p class="text-sm max-w-xs">Good food is always cooking! Go ahead, order some yummy items from the menu.</p>
+            </div>
+        </div>
+    </aside>
+    <!--====================================
+            CART SIDEBAR PART END   
+    =====================================-->
+
+
+    <!--====================================
+                FOOTER PART START  
+    =====================================-->
+    <footer class="footer-part pt-12 mb-14 lg:mb-0">
+        <div class="container">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 md:gap-6">
+                <div>
+                    <a href="home.html"><img class="mb-8 w-36" src="../images/logo/white.png" alt="logo"></a>
+                    <p class="text-xs mb-3 text-white">Subscribe to our newsletter to get latest updates</p>
+                    <form class="flex items-center rounded-lg sm:max-w-xs w-full h-12 p-2 mb-8 bg-white">
+                        <input type="email" placeholder="Your email address" class="w-full h-full pl-2">
+                        <button type="submit" class="capitalize text-xs font-medium rounded-md flex-shrink-0 p-2.5 text-white bg-primary">Subscribe</button>
+                    </form>
+                    <h3 class="text-xs capitalize mb-4 text-white">Follow us on</h3>
+                    <nav class="flex items-center gap-5">
+                        <a href="#" class="fa-brands fa-facebook-f inline-block text-sm w-7 h-7 leading-7 text-center rounded-full shadow-lg bg-white text-primary"></a>
+                        <a href="#" class="fa-brands fa-twitter inline-block text-sm w-7 h-7 leading-7 text-center rounded-full shadow-lg bg-white text-primary"></a>
+                        <a href="#" class="fa-brands fa-instagram inline-block text-sm w-7 h-7 leading-7 text-center rounded-full shadow-lg bg-white text-primary"></a>
+                        <a href="#" class="fa-brands fa-youtube inline-block text-sm w-7 h-7 leading-7 text-center rounded-full shadow-lg bg-white text-primary"></a>
+                    </nav>
+                </div>
+                <div>
+                    <div class="sm:w-fit sm:mx-auto">
+                        <h3 class="capitalize text-lg font-semibold mb-6 text-white">Legal</h3>
+                        <nav class="flex flex-col items-start gap-3">
+                            <a href="cookie-setting.html" class="capitalize text-white hover:underline">Cookie setting</a>
+                            <a href="terms.html" class="capitalize text-white hover:underline">Terms & conditions</a>
+                            <a href="privacy.html" class="capitalize text-white hover:underline">Privacy policy</a>
+                            <a href="about-us.html" class="capitalize text-white hover:underline">About Us</a>
+                            <a href="contact-us.html" class="capitalize text-white hover:underline">contact Us</a>
+                        </nav>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="capitalize text-lg font-semibold mb-3 text-white">Download Our Apps</h3>
+                    <nav class="flex items-center gap-3 mb-7 w-full max-w-[265px]">
+                        <a href="#"><img class="rounded-lg w-full" src="../images/app-store.png" alt="app"></a>
+                        <a href="#"><img class="rounded-lg w-full" src="../images/app-store.png" alt="app"></a>
+                    </nav>
+                    <ul class="flex flex-col gap-5">
+                        <li class="flex items-center gap-2.5 text-white">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2 8.5C2 5 4 3.5 7 3.5H17C20 3.5 22 5 22 8.5V15.5C22 19 20 20.5 17 20.5H7" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M17 9L13.87 11.5C12.84 12.32 11.15 12.32 10.12 11.5L7 9" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M2 16.5H8" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M2 12.5H5" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span class="text-lg">example@gmail.com</span>
+                        </li>
+                        <li class="flex items-center gap-2.5 text-white">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19.5 9.375C19.5 7.38588 18.7098 5.47822 17.3033 4.0717C15.8968 2.66518 13.9891 1.875 12 1.875C10.0353 1.87465 8.14895 2.64523 6.74645 4.02108C5.34395 5.39693 4.53733 7.26818 4.5 9.2325C3.90326 9.2325 3.33097 9.46955 2.90901 9.89151C2.48705 10.3135 2.25 10.8858 2.25 11.4825V14.4825C2.25 15.0792 2.48705 15.6515 2.90901 16.0735C3.33097 16.4954 3.90326 16.7325 4.5 16.7325H6C6.59674 16.7325 7.16903 16.4954 7.59099 16.0735C8.01295 15.6515 8.25 15.0792 8.25 14.4825V11.4825C8.25 10.8858 8.01295 10.3135 7.59099 9.89151C7.16903 9.46955 6.59674 9.2325 6 9.2325C6.03721 7.66603 6.68575 6.17626 7.80696 5.08168C8.92817 3.9871 10.4331 3.37456 12 3.375C13.5913 3.375 15.1174 4.00714 16.2426 5.13236C17.3679 6.25758 18 7.7837 18 9.375C17.4033 9.375 16.831 9.61205 16.409 10.034C15.9871 10.456 15.75 11.0283 15.75 11.625V14.625C15.752 15.1209 15.9178 15.6023 16.2216 15.9943C16.5254 16.3862 16.9502 16.6669 17.43 16.7925C16.863 17.8225 15.9155 18.5897 14.79 18.93C14.6098 18.5406 14.322 18.2109 13.9605 17.9796C13.5991 17.7484 13.1791 17.6254 12.75 17.625H11.25C10.6533 17.625 10.081 17.8621 9.65901 18.284C9.23705 18.706 9 19.2783 9 19.875C9 20.4717 9.23705 21.044 9.65901 21.466C10.081 21.8879 10.6533 22.125 11.25 22.125H12.75C13.2469 22.1226 13.7291 21.9557 14.1212 21.6504C14.5133 21.3451 14.7933 20.9186 14.9175 20.4375C15.8389 20.2126 16.6938 19.7724 17.4121 19.1532C18.1305 18.5339 18.6918 17.7532 19.05 16.875H19.5C20.0967 16.875 20.669 16.6379 21.091 16.216C21.5129 15.794 21.75 15.2217 21.75 14.625V11.625C21.75 11.0283 21.5129 10.456 21.091 10.034C20.669 9.61205 20.0967 9.375 19.5 9.375ZM6.75 11.4825V14.4825C6.75 14.6814 6.67098 14.8722 6.53033 15.0128C6.38968 15.1535 6.19891 15.2325 6 15.2325H4.5C4.30109 15.2325 4.11032 15.1535 3.96967 15.0128C3.82902 14.8722 3.75 14.6814 3.75 14.4825V11.4825C3.75 11.2836 3.82902 11.0928 3.96967 10.9522C4.11032 10.8115 4.30109 10.7325 4.5 10.7325H6C6.19891 10.7325 6.38968 10.8115 6.53033 10.9522C6.67098 11.0928 6.75 11.2836 6.75 11.4825ZM12.75 20.625H11.25C11.0511 20.625 10.8603 20.546 10.7197 20.4053C10.579 20.2647 10.5 20.0739 10.5 19.875C10.5 19.6761 10.579 19.4853 10.7197 19.3447C10.8603 19.204 11.0511 19.125 11.25 19.125H12.75C12.9489 19.125 13.1397 19.204 13.2803 19.3447C13.421 19.4853 13.5 19.6761 13.5 19.875C13.5 20.0739 13.421 20.2647 13.2803 20.4053C13.1397 20.546 12.9489 20.625 12.75 20.625ZM20.25 14.625C20.25 14.8239 20.171 15.0147 20.0303 15.1553C19.8897 15.296 19.6989 15.375 19.5 15.375H18C17.8011 15.375 17.6103 15.296 17.4697 15.1553C17.329 15.0147 17.25 14.8239 17.25 14.625V11.625C17.25 11.4261 17.329 11.2353 17.4697 11.0947C17.6103 10.954 17.8011 10.875 18 10.875H19.5C19.6989 10.875 19.8897 10.954 20.0303 11.0947C20.171 11.2353 20.25 11.4261 20.25 11.625V14.625Z" fill="white"/>
+                            </svg>
+                            <span class="text-lg font-medium">0123659874563</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="py-8 mt-8 border-t border-primary-slate">
+            <p class="text-sm text-center text-white">&copy; Tomato by 2022, All Rights Reserved</p>
+        </div>
+    </footer>
+    <!--====================================
+                FOOTER PART START  
+    =====================================-->
+</body>
+</html>
